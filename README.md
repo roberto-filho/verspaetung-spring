@@ -12,4 +12,5 @@ Then type on your browser: `http://localhost:8081/vehicles/find?time=10:10:00&x=
 This repository also comes with a Dockerfile to dockerize the application:
 ```sh
 $ docker build -t robertofilho/verspaetung:alpha .
+$ docker run --rm -p 8081:8081 robertofilho/verspaetung:alpha
 ```
