@@ -20,7 +20,7 @@ repositories {
     mavenCentral()
 }
 
-//mainClassName = 'br.com.roberto.mobimeochallenge.MobimeoChallengeApplication'
+//mainClassName = 'br.com.roberto.verspaetung.VerspaetungApplication'
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'

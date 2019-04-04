@@ -6,6 +6,6 @@ RUN ./gradlew build --no-daemon
 
 FROM openjdk:8u191-jre-alpine
 EXPOSE 8080
-COPY --from=builder /app/build/libs/mobimeo-challenge.jar /app/
+COPY --from=builder /app/build/libs/verspaetung.jar /app/
 WORKDIR /app
-CMD java -jar mobimeo-challenge.jar
+CMD java -jar verspaetung.jar
